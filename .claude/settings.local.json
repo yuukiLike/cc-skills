@@ -27,7 +27,8 @@
       "Bash(networksetup -getsecurewebproxy:*)",
       "Bash(networksetup:*)",
       "Bash(scutil:*)",
-      "Bash(xargs kill:*)"
+      "Bash(xargs kill:*)",
+      "Bash(chmod:*)"
     ]
   }
 }
