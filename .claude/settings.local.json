@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:tauri.app)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(wc:*)",
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(pnpm --version:*)",
+      "Bash(rustc:*)",
+      "Bash(cargo:*)",
+      "Bash(git -C /Users/chp/legend/cc-md-preview log --oneline -5)",
+      "WebFetch(domain:v2.tauri.app)",
+      "Bash(rustup update:*)",
+      "Bash(pnpm init:*)",
+      "Bash(pnpm add:*)",
+      "Bash(timeout 10 pnpm dev:*)",
+      "Bash(npx vue-tsc:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(pnpm run build:*)",
+      "Bash(sort -t: -k2 -n __NEW_LINE_82e7a4080a15f61e__ echo echo '=== 已建立的外部连接（前30条）===' lsof -i -P -n)",
+      "Bash(lsof:*)",
+      "Bash(sort:*)",
+      "Bash(networksetup -getwebproxy:*)",
+      "Bash(networksetup -getsecurewebproxy:*)",
+      "Bash(networksetup:*)",
+      "Bash(scutil:*)",
+      "Bash(xargs kill:*)"
+    ]
+  }
+}
